@@ -1,0 +1,13 @@
+.home {
+  height: 100vh;
+  //background-color: red;
+  background-image: url("/img/homeBG.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.homeHeadingContainer {
+  width: 47rem;
+  text-align: center;
+  @include abs-center;
+}

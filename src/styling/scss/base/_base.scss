@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: $black;
+  font-family: $fontPrimary;
+}
+
+.container {
+  width: 100%;
+  max-width: 62rem;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
