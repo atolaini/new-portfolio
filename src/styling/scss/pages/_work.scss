@@ -1,0 +1,36 @@
+.work {
+  position: relative;
+  background-image: url("/img/workBG.png");
+  background-position: right;
+  height: 100vh;
+  color: white;
+}
+
+.workImgContainer {
+  max-width: 30rem;
+  height: 13.2rem;
+  overflow: hidden;
+
+  @media (max-width: 640px) {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+}
+
+.workCard {
+  background-color: transparentize($color: black, $amount: 0.5);
+}

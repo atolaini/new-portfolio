@@ -2,5 +2,15 @@
 .mainHeading {
   font-family: $fontPrimary;
   font-size: 7.2rem;
-  color: $black;
+  color: $red;
+  margin: 0;
+}
+
+.subHeading {
+  font-size: 3.6rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

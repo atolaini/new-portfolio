@@ -1,0 +1,19 @@
+.col {
+  //border: 1px solid red;
+  max-width: 30rem;
+  margin: 1rem 1rem;
+  padding: 1rem;
+
+  @media (max-width: 640px) {
+    max-width: 100%;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 640px) {
+    display: block;
+  }
+}

@@ -4,10 +4,16 @@
   background-image: url("/img/homeBG.png");
   background-size: cover;
   background-position: center;
+  position: relative;
+
+  @media (max-width: 72.2rem) {
+    background-position: right center;
+  }
 }
 
 .homeHeadingContainer {
-  width: 47rem;
+  width: 100%;
+  //background-color: red;
   text-align: center;
   @include abs-center;
 }
