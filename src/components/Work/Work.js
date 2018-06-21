@@ -4,7 +4,7 @@ const work = () => {
   return (
     <section className="work">
       <div className="overlay" />
-      <h1 className="mainHeading">Some of my work...</h1>
+      <h1 className="mainHeading work__heading">Some of my work...</h1>
       <div className="flex">
         <div className="col workCard">
           <figure className="workImgContainer">
@@ -18,8 +18,8 @@ const work = () => {
           </figure>
           <p className="subHeading">
             This is my personal website that promotes my hobbie of magic!
-            visit..
           </p>
+          <a href="http://www.google.com">Google</a>
         </div>
         <div className="col workCard">
           <figure className="workImgContainer">
@@ -34,9 +34,6 @@ const work = () => {
           <p className="subHeading">
             This website was created for a custom cake maker…tasty!!
           </p>
-          <a href="http://fineanddandycakes.com/" target="_blank">
-            Vist Site
-          </a>
         </div>
         <div className="col workCard">
           <figure className="workImgContainer">
@@ -52,7 +49,7 @@ const work = () => {
             </a>
           </figure>
           <p className="subHeading">
-            just a little weather app built using react js visit…
+            just a little weather app built using react js.
           </p>
         </div>
       </div>

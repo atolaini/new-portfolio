@@ -4,6 +4,13 @@
   background-position: right;
   height: 100vh;
   color: white;
+
+  &__heading {
+    padding: 10rem 0px;
+    text-align: center;
+    position: relative;
+    z-index: 300;
+  }
 }
 
 .workImgContainer {

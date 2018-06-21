@@ -445,6 +445,11 @@ a {
   background-position: right;
   height: 100vh;
   color: white; }
+  .work__heading {
+    padding: 10rem 0px;
+    text-align: center;
+    position: relative;
+    z-index: 300; }
 
 .workImgContainer {
   max-width: 30rem;
