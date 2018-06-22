@@ -8,7 +8,11 @@ const work = () => {
       <div className="flex">
         <div className="col workCard">
           <figure className="workImgContainer">
-            <a href="http://adamjmagic.com/" target="_blank">
+            <a
+              href="http://adamjmagic.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="/img/adamJames.png"
                 alt="Adam James"
@@ -19,11 +23,14 @@ const work = () => {
           <p className="subHeading">
             This is my personal website that promotes my hobbie of magic!
           </p>
-          <a href="http://www.google.com">Google</a>
         </div>
         <div className="col workCard">
           <figure className="workImgContainer">
-            <a href="http://fineanddandycakes.com/" target="_blank">
+            <a
+              href="http://fineanddandycakes.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="/img/fine&dandy.png"
                 alt="Fine and Dandy"
@@ -40,6 +47,7 @@ const work = () => {
             <a
               href="https://weather-app-a3dd6.firebaseapp.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src="/img/weatherApp.png"

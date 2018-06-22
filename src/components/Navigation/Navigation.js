@@ -1,6 +1,6 @@
 import React from "react";
 import Aux from "../../hoc/aux";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const navigation = () => {
   return (
@@ -8,16 +8,22 @@ const navigation = () => {
       <nav className="navBar">
         <div className="container navContainer">
           <h1 className="navBar__logo">
-            <Link to="/">(AT)</Link>
+            <NavLink to="/" activeClassName="logoActive">
+              (AT)
+            </NavLink>
           </h1>
           <ul className="navBar__nav container">
             <li className="navBar__nav--item">
-              <Link to="/">Home</Link>
+              <NavLink to="/" exact>
+                Home
+              </NavLink>
             </li>
             <li className="navBar__nav--item">
-              <Link to="/work">Work</Link>
+              <NavLink to="/work">Work</NavLink>
             </li>
-            <li className="navBar__nav--item">About</li>
+            <li className="navBar__nav--item">
+              <NavLink to="/about">About</NavLink>
+            </li>
             <li className="navBar__nav--item">Contact</li>
           </ul>
         </div>

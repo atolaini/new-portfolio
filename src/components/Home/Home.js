@@ -6,7 +6,7 @@ const home = () => {
       <div className="overlay" />
       <div className="homeHeadingContainer">
         <h1 className="mainHeading">
-          Hi,<br /> I'm Adam...<br />and this is me.
+          Hi,<br /> I'm Adam,<br />and this is me...
         </h1>
       </div>
     </section>

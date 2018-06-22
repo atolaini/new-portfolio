@@ -40,4 +40,5 @@
 
 .workCard {
   background-color: transparentize($color: black, $amount: 0.5);
+  border: 2px solid $black;
 }

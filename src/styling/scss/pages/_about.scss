@@ -1,0 +1,28 @@
+.about {
+  background-image: url("/img/aboutBG.png");
+  max-height: auto;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &__text {
+    position: relative;
+    letter-spacing: 2.5px;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  &__heading {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  &__skills {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+}
